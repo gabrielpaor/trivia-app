@@ -20,17 +20,20 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## How To Use?
 
-To learn more about Next.js, take a look at the following resources:
+### Homepage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![The Home screen for the app](screenshots/homepage.png "The Home screen for the app")
+Step 1: Click "Let's Start!" to start the trivia game.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Quiz page
 
-## Deploy on Vercel
+![The Quiz screen for the app](screenshots/quiz.png "The Quiz screen for the app")
+![The Quiz screen for the app](screenshots/quiz_answer.png "The Quiz screen for the app")
+Step 2: Answer every question by clicking "True" or "False" buttons. After answering, the game will notify you if you answere is correct or incorrect. The games will generate 10 questions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Result page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![The Results screen for the app](screenshots/result.png "The Results screen for the app")
+Step 3: After answering all the 10 question, you will be directed to the Result page. In this page, you will see your score, answered questions, correct answers, your answer, and also icons to see if you are correct or not. You can click "Play Again" button to redirect to the homepage.
